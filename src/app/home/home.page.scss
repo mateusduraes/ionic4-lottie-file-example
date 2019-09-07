@@ -1,1 +1,23 @@
+ion-content {
+  --background: linear-gradient(
+    to top,
+    #580c7c,
+    #570b91,
+    #5010a8,
+    #4018c1,
+    #0122db
+  );
+}
 
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.animation-content {
+  display: flex;
+  justify-content: center;
+}

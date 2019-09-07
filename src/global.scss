@@ -10,17 +10,45 @@
  */
 
 /* Core CSS required for Ionic components to work properly */
-@import "~@ionic/angular/css/core.css";
+@import '~@ionic/angular/css/core.css';
 
 /* Basic CSS for apps built with Ionic */
-@import "~@ionic/angular/css/normalize.css";
-@import "~@ionic/angular/css/structure.css";
-@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
 @import '~@ionic/angular/css/display.css';
 
 /* Optional CSS utils that can be commented out */
-@import "~@ionic/angular/css/padding.css";
-@import "~@ionic/angular/css/float-elements.css";
-@import "~@ionic/angular/css/text-alignment.css";
-@import "~@ionic/angular/css/text-transformation.css";
-@import "~@ionic/angular/css/flex-utils.css";
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+.item-input {
+  margin: 24px 0;
+  margin: 16px 0px;
+  border-radius: 8px;
+  border: solid 1px var(--ion-color-light);
+  ion-input {
+    --border-radius: 8px;
+    --padding-start: 10px;
+    --padding-end: 10px;
+    --color: var(--ion-color-dark);
+  }
+  &.bg-light {
+    background: var(--ion-color-light-tint);
+  }
+  &.bg-transparent {
+    background: var(--ion-color-transparent);
+  }
+  &.bg-white {
+    background: var(--ion-color-white);
+  }
+}
+
+ion-button[expand='block'].expanded-button {
+  font-weight: bold;
+  height: 50px;
+  margin: 10px 0px;
+}

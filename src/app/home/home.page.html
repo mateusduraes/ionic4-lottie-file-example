@@ -1,14 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <h1 class="title">Advertisement Mobile Platform</h1>
+  <div class="animation-content">
+    <lottie-animation-view [options]="lottieConfig" [width]="300" [height]="450">
+    </lottie-animation-view>
   </div>
+
+  <form padding>
+    <div class="item-input bg-light">
+      <ion-input placeholder="Email"></ion-input>
+    </div>
+
+    <div class="item-input bg-light">
+      <ion-input placeholder="Password" type="password"></ion-input>
+    </div>
+
+    <ion-button class="expanded-button" mode="ios" expand="block">
+      Sign In
+      <ion-icon slot="end" name=""></ion-icon>
+    </ion-button>
+  </form>
+
+
 </ion-content>

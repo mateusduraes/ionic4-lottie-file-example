@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { LottieAnimationViewModule } from 'ng-lottie';
+import { DemoComponent } from './animation.component';
 
 @NgModule({
   imports: [
@@ -16,8 +18,9 @@ import { HomePage } from './home.page';
         path: '',
         component: HomePage
       }
-    ])
+    ]),
+    LottieAnimationViewModule.forRoot()
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, DemoComponent]
 })
 export class HomePageModule {}
