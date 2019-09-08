@@ -1,8 +1,7 @@
-These are Cordova resources. You can replace icon.png and splash.png and run
-`ionic cordova resources` to generate custom icons and splash screens for your
-app. See `ionic cordova resources --help` for details.
+## Lottie file Animation with Ionci
 
-Cordova reference documentation:
+Just an example using lottie file animation with ionic
 
-- Icons: https://cordova.apache.org/docs/en/latest/config_ref/images.html
-- Splash Screens: https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-splashscreen/
+<center>
+    <img src="Sep-08-2019 02-02-22.gif">
+</center>
